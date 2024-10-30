@@ -2,7 +2,7 @@
 
 ## Overview
 
-This folder contains a Soroban smart contract example for a vesting schedule, a digital agreement that governs the gradual transfer of ownership rights, typically for assets like company stock or crypto tokens. It demonstrates defining, adding, and withdrawing vesting schedules, showcasing how to implement and interact with smart contracts on the Stellar network using Soroban.
+Some change. This folder contains a Soroban smart contract example for a vesting schedule, a digital agreement that governs the gradual transfer of ownership rights, typically for assets like company stock or crypto tokens. It demonstrates defining, adding, and withdrawing vesting schedules, showcasing how to implement and interact with smart contracts on the Stellar network using Soroban.
 
 ## Contract Functions
 
