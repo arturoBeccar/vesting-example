@@ -1,3 +1,7 @@
+name: Run Scout-action
+description: Run scout-action
+author: Coinfabrik
+
 name: scout-workflow
 on: [push]
 
@@ -10,13 +14,12 @@ jobs:
       repository-projects: write
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: do scout
-        uses: coinfabrik/scout-actions@v2.4
+        uses: coinfabrik/scout-actions@v3
         with:
           target: '.'
-          markdown_output: "true"
 
       - uses: mshick/add-pr-comment@v2.8.2
         with:
